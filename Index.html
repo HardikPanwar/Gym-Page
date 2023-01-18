@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARDIK FITNESS CLUB</title>
+</head>
+<link rel="stylesheet" href="" class="CSS/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=PT+Serif:ital@1&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+<style>
+    /* CSS RESET*/
+    body {
+        color: rgb(255, 255, 255);
+        margin: 0px;
+        padding: 0px;
+        background: url('Images/gymimage1.jpg');
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .left {
+        display: inline-block;
+        /*border: 2px solid red;*/
+        left: 34px;
+        top: 20px;
+        margin: 0px;
+        width: 190px;
+
+    }
+
+    .left div img {
+        width: 88px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+        margin: 0px 30px;
+    }
+
+    .mid {
+        display: block;
+        width: 30%;
+        margin: -70px auto;
+        /*border: 2px solid blue;*/
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 21px;
+        display: inline-block;
+        /*border: 2px solid green;*/
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+        font-style: unset;
+    }
+
+    .navbar li a {
+        color: rgb(253, 253, 253);
+        text-decoration: none;
+        padding: 34px 20px;
+        text-align: center;
+
+    }
+
+    .navbar li a:hover,.navbar li a.active {
+        color: rgb(40, 29, 196);
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(24 30 42);
+        ;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .btn:hover {
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+        background-color: rgba(175, 175, 175, 0.336);
+    }
+
+    .container {
+        text-align: center;
+        /*border: 2px solid white;*/
+        margin: 108px;
+        padding: 133px;
+        width: 500px;
+        font-size: 23px;
+    }
+
+    #entry {
+        margin: 8px;
+        padding: 3px;
+        width: 80%;
+    }
+
+</style>
+
+<body>
+
+    <div class="left">
+        <div> <img src="Images/cropgymimg.webp" alt=""></div>
+        <div>HARDIK FITNESS CLUB</div>
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home </a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Schedules </a></li>
+            <li><a href="#">Contact Us </a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="btn">Email us </button>
+        <button class="btn">Help?</button>
+    </div>
+    <div class="container">JOIN US NOW (60% OFF For first 40 customer)
+        <div>
+            <input type="text" class="btn" id="entry" placeholder="Enter your name">
+            <input type="text" class="btn" id="entry" placeholder="Enter your AGE">
+            <input type="text" class="btn" id="entry" placeholder="Enter your number">
+            <input type="text" class="btn" id="entry" placeholder="Enter your Address">
+            <input type="text" class="btn" id="entry" placeholder="Enter your Email id">
+            <button class="btn" id="submit"> submit</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
